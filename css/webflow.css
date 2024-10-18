@@ -1807,3 +1807,18 @@ textarea.w-select {
   top: 0;
   left: 0;
 }
+
+.introduce-button-cont {
+  border:0;
+  padding-top: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-bottom: 45px;
+  font-size: 31px;
+}
+
+@media (max-width: 1000px) {
+  .introduce-button-cont {
+    padding: 20px 30px;
+  }
+}
